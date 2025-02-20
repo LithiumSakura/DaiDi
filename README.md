@@ -1,6 +1,5 @@
 # DaiDi
 Just three software engineering students that like dai di but online versions suck sooo >:)
------
 
 Message from Boogie: I am so bored i need Dai Di
 

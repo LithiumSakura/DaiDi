@@ -1,4 +1,12 @@
-#button {
+body {
+    margin: 0 auto;
+    padding: 0;
+    aligh-items: center;
+    text-align: center;
+    background-color: #27592D
+}
+
+button {
     width: 8em;
     border: 2px solid green;
     background: #ffe;

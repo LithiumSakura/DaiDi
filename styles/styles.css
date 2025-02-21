@@ -65,9 +65,9 @@ header ul li a:hover {
 
 .buttons {
     display: flex;
-    gap: 1.5em;
+    gap: 1em;
     justify-content: space-around;
-    padding: 1.5em;
+    padding: 1em;
 }
 
 .buttons p a {

@@ -3,11 +3,19 @@ body {
     padding: 0;
     aligh-items: center;
     text-align: center;
+    
     background: radial-gradient(
         circle,
-        #CC5500 40%,
-        #801818 60%
+        #CC5500 0%,
+        #CC5500 30%,
+        #801818 100%
     );
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    margin: 0;
 }
 
 .game-page {

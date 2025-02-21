@@ -19,7 +19,7 @@ body {
 }
 
 .game-page {
-    background-color: #27592D !important;
+    background: #27592D !important;
     background-image: none !important;
     min-height: 100vh;
 }

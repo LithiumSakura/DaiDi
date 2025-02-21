@@ -103,7 +103,6 @@ header ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    vertical-align: text-top;
     gap: 0.5em;
     width: 50%;
 }

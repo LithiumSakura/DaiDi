@@ -93,7 +93,7 @@ header ul li a:hover {
 }
 
 .side-image{
-    width: auto;
+    width: 1.5em;
     height: auto;
     flex-shrink: 0;
 }

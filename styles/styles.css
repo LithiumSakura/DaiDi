@@ -12,6 +12,7 @@ body {
 
 .game-page {
     background-color: #27592D;
+}
 
 button {
     width: 8em;
@@ -19,6 +20,7 @@ button {
     background: #ffe;
     border-radius: 5px;
 }
+
 a {
     display: block;
     width: 100%;
@@ -27,6 +29,7 @@ a {
     text-decoration: none;
     border-radius: 5px;
 }
+
 a:hover {
     color: red;
     background: #eff;

@@ -11,7 +11,7 @@ body {
 }
 
 .game-page {
-    background-color: #27592D;
+    background-color: #27592D !important;
 }
 
 button {

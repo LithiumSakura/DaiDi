@@ -25,8 +25,6 @@ body {
         #35A542 30%,
         #244929 100%
     );
-    
-    background: #27592D !important;
     background-image: none !important;
     min-height: 100vh;
 }

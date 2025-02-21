@@ -53,21 +53,11 @@ header ul li a:hover {
     text-decoration: underline;
 }
 
-.game-page {
-    background: radial-gradient(
-        circle,
-        #35A542 0%,
-        #35A542 30%,
-        #244929 100%
-    );
-    min-height: 100vh;
-}
-
 .buttons {
     display: flex;
-    gap: 1em;
+    gap: 1.5em;
     justify-content: space-around;
-    padding: 1em;
+    padding: 1.5em;
 }
 
 .buttons p a {
@@ -86,4 +76,64 @@ header ul li a:hover {
 .buttons p a:hover {
     color: red;
     background-color: #182E6F;
+}
+
+.joinContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+}
+
+.side-images {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.side-image{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.games {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 50%;
+}
+
+.game {
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 0.5em;
+    background-color: #7a1212;
+}
+
+.game a {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+}
+
+.room-id {
+    text-align: left;
+}
+
+.player-count {
+    text-align: right;
+}
+
+.game-page {
+    background: radial-gradient(
+        circle,
+        #35A542 0%,
+        #35A542 30%,
+        #244929 100%
+    );
+    min-height: 100vh;
 }

@@ -1,4 +1,5 @@
 body {
+    font-family: 'Monaco', monospace;
     margin: 0 auto;
     padding: 0;
     align-items: center;
@@ -13,19 +14,19 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-
     min-height: 100vh;
-    margin: 0;
 }
 
 header {
     display: flex;
+    padding: 1em 1em;
     justify-content: space-between;
     align-items: center;
     text-align: center;
 }
 
 .header-left {
+    font-size: 1em;
     font-weight: bold;
 }
 
@@ -38,6 +39,7 @@ header ul {
 }
 
 header ul li {
+    margin: 0 1em;
     vertical-align: middle;
     align-items: center;
 }

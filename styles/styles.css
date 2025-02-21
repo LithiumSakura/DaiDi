@@ -3,8 +3,15 @@ body {
     padding: 0;
     aligh-items: center;
     text-align: center;
-    background-color: #27592D
+    background: radial-gradient(
+        circle,
+        #CC5500 40%,
+        #801818 60%
+    );
 }
+
+.game-page {
+    background-color: #27592D;
 
 button {
     width: 8em;

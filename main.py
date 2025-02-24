@@ -27,7 +27,7 @@ class BigTwo:
                     return x
         return 0
     
-    def card_ranks(self, card1: pd.Card, card2: pd.Card):
+    def play(self, card1: pd.Card, card2: pd.Card):
 
         card_ranks = {
             "2" : 13,
@@ -62,3 +62,15 @@ class BigTwo:
             "Four of a Kind",
             "Straight Flush"
         }
+
+        if card_ranks[card1.value] > card_ranks[card2.value]:
+            return 1
+        elif card_ranks[card1.value] < card_ranks[card2.value]:
+            return -1
+
+def main():
+    game = BigTwo()
+    game.deal_cards()
+    starting_player = game.three_of_diamonds()
+    game.current_play
+    

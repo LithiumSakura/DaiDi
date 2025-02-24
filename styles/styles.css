@@ -81,9 +81,12 @@ header ul li a:hover {
 .joinContainer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 2em;
     padding: 2em;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .side-images {
@@ -91,21 +94,26 @@ header ul li a:hover {
     flex-direction: column;
     align-items: center;
     gap: 1em;
+    width: 15%;
+    min-width: 80px;
 }
 
 .side-image{
-    width: 10em;
+    width: 100%;
     height: auto;
-    flex-shrink: 0;
+    max-width: 140px;
+    min-width: 60px;
 }
 
 .games {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     justify-content: flex-start;
     gap: 0.5em;
     width: 50%;
+    min-width: 200px;
+    max-width: 600px;
 }
 
 .game {
@@ -113,24 +121,75 @@ header ul li a:hover {
     border: 1px solid;
     border-radius: 0.5em;
     background-color: #7a1212;
+    width: 100%;
 }
 
 .game a {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     color: black;
     text-decoration: none;
+    min-width: 0;
 }
 
 .room-id {
     text-align: left;
+    white-space: nowrap;
+    margin-right: 1em;
 }
 
 .player-count {
     text-align: right;
+    white-space: nowrap;
+    margin-left: auto;
 }
 
+/* For smaller screens */
+@media screen and (max-width: 900px) {
+    .side-images {
+        width: 12%;
+    }
+    .games {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .joinContainer {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 1em;
+    }
+    .side-images {
+        flex-direction: row;
+        width: 90%;
+        justify-content: center;
+        gap: 2em;
+    }
+    .side-image {
+        width: 70px;
+    }
+    .games {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .side-image {
+        width: 50px;
+    }
+    .side-images {
+        gap: 1em;
+    }
+    .games {
+        width: 95%;
+    }
+    .game {
+        padding: 0.5em;
+    }
+}
 .game-page {
     background: radial-gradient(
         circle,

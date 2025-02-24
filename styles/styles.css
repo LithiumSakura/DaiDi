@@ -78,42 +78,17 @@ header ul li a:hover {
     background-color: #182E6F;
 }
 
-.joinContainer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 2em;
-    padding: 2em;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.side-images {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1em;
-    width: 15%;
-    min-width: 80px;
-}
-
-.side-image{
-    width: 100%;
-    height: auto;
-    max-width: 140px;
-    min-width: 60px;
-}
-
 .games {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    align-items: stretch;
-    justify-content: flex-start;
+    align-items: center;
     gap: 0.5em;
-    width: 50%;
+    padding: 2em;
+    width: 75%;
     min-width: 200px;
-    max-width: 600px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .game {

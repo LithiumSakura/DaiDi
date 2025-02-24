@@ -146,50 +146,6 @@ header ul li a:hover {
     margin-left: auto;
 }
 
-/* For smaller screens */
-@media screen and (max-width: 900px) {
-    .side-images {
-        width: 12%;
-    }
-    .games {
-        width: 60%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .joinContainer {
-        flex-direction: column-reverse;
-        align-items: center;
-        gap: 1em;
-    }
-    .side-images {
-        flex-direction: row;
-        width: 90%;
-        justify-content: center;
-        gap: 2em;
-    }
-    .side-image {
-        width: 70px;
-    }
-    .games {
-        width: 95%;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .side-image {
-        width: 50px;
-    }
-    .side-images {
-        gap: 1em;
-    }
-    .games {
-        width: 95%;
-    }
-    .game {
-        padding: 0.5em;
-    }
-}
 .game-page {
     background: radial-gradient(
         circle,

@@ -82,6 +82,12 @@ header ul li a:hover {
     align-items: left;
 }
 
+.create {
+    display: block;
+    border: 1px solid;
+    border-radius: 0.5em;
+}
+
 .games {
     display: flex;
     justify-content: center;

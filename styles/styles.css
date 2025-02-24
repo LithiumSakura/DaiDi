@@ -78,6 +78,10 @@ header ul li a:hover {
     background-color: #182E6F;
 }
 
+.rules {
+    align-items: left;
+}
+
 .games {
     display: flex;
     justify-content: center;

@@ -59,9 +59,14 @@ img {
     transform: rotate(45deg);
 }
 
+h1 {
+    align-items: center;
+}
+
 .page {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .left {
@@ -81,7 +86,11 @@ img {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.button {
     width: 100%;
+    align-items: center;
 }
 
 .buttons p a {

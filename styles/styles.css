@@ -54,11 +54,6 @@ header ul li a:hover {
     text-decoration: underline;
 }
 
-img {
-    width: 40%;
-    transform: rotate(45deg);
-}
-
 .page {
     display: flex;
     flex-direction: row;

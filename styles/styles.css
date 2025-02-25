@@ -55,12 +55,12 @@ header ul li a:hover {
 }
 
 img {
-    width: 50%;
+    width: 25%;
     transform: rotate(45deg);
 }
 
 h1 {
-    align-items: center;
+    text-align: center;
 }
 
 .page {

@@ -82,6 +82,7 @@ img {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    gap: 1.5em;
 }
 
 .buttons p a {

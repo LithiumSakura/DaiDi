@@ -54,6 +54,10 @@ header ul li a:hover {
     text-decoration: underline;
 }
 
+img {
+    width: 40%;
+}
+
 .page {
     display: flex;
     flex-direction: row;
@@ -75,6 +79,7 @@ header ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 
 .buttons p a {

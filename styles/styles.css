@@ -54,11 +54,27 @@ header ul li a:hover {
     text-decoration: underline;
 }
 
+.page {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 35%;
+}
+
+.middle {
+    width: 30%;
+}
+
+.right {
+    width: 35%;
+}
+
 .buttons {
     display: flex;
-    gap: 1.5em;
+    flex-direction: column;
     justify-content: space-around;
-    padding: 1.5em;
 }
 
 .buttons p a {

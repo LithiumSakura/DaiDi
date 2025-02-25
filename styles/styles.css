@@ -71,14 +71,17 @@ h1 {
 
 .left {
     width: 35%;
+    align-items: left;
 }
 
 .middle {
     width: 30%;
+    align-items: center;
 }
 
 .right {
     width: 35%;
+    align-items: right;
 }
 
 .buttons {

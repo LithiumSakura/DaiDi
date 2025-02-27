@@ -121,9 +121,7 @@ h1 {
     display: inline-block;
     border: 1px solid;
     border-radius: 0.5em;
-    padding: 1em 1em;
-    justify-content: space-between;
-    gap: 0.5em;
+    padding: 1em;
     margin: 1em;
     text-align: center;
     align-items: top;

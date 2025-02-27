@@ -121,8 +121,8 @@ h1 {
     display: inline-block;
     border: 1px solid;
     border-radius: 0.5em;
-    padding: 1em;
-    margin: 1em;
+    padding: 0.5em;
+    margin: 0.5em;
     text-align: center;
     align-items: top;
 }

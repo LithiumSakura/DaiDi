@@ -1,3 +1,6 @@
+/* Default AESTHETIC appearence. Applies to ALL pages. DO NOT CHANGE 
+THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
+
 body {
     color: black;
     font-family: 'Monaco', monospace;
@@ -63,6 +66,10 @@ h1 {
     text-align: center;
 }
 
+
+/* Default CONTENT appearence. Applies to ALL pages. DO NOT CHANGE 
+THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
+
 .page {
     display: flex;
     flex-direction: row;
@@ -86,6 +93,7 @@ h1 {
     transform: rotate(45deg);
 }
 
+/* For index.html */
 .buttons {
     display: flex;
     flex-direction: column;
@@ -116,6 +124,7 @@ h1 {
     background-color: #182E6F;
 }
 
+/* For rules.html */
 .rules-middle {
     width: 30%;
     display: inline-block;
@@ -127,6 +136,7 @@ h1 {
     align-items: top;
 }
 
+/* For create.html */
 .create {
     display: block;
     border: 1px solid;
@@ -134,6 +144,7 @@ h1 {
     margin: 1em;
 }
 
+/* For join.html */
 .games {
     display: flex;
     justify-content: center;
@@ -177,6 +188,7 @@ h1 {
     margin-left: auto;
 }
 
+/* For game.html */
 .game-page {
     background: radial-gradient(
         circle,

@@ -117,7 +117,7 @@ h1 {
 }
 
 .rules {
-    display: flex;
+    display: inline-block;
     border: 1px solid;
     border-radius: 0.5em;
     padding: 1em 1em;
@@ -126,11 +126,6 @@ h1 {
     margin: 1em;
     text-align: left;
     align-items: top;
-}
-
-ul.list {
-  display: inline-block;
-  align-items: left;
 }
 
 .create {

@@ -77,18 +77,18 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
 }
 
 .left {
-    width: 35%;
+    width: 30%;
     align-items: left;
     transform: rotate(315deg);
 }
 
 .middle {
-    width: 30%;
+    width: 40%;
     align-items: center;
 }
 
 .right {
-    width: 35%;
+    width: 30%;
     align-items: right;
     transform: rotate(45deg);
 }

@@ -80,6 +80,7 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
     width: 100%;
     max-width: 1200px;
 }

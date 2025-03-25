@@ -114,19 +114,16 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     justify-content: center;
     align-items: center;
     width: 100%;
+    gap: 1rem;
 }
 
 .button {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .buttons p a {
     display: block;
     width: 100%;
-    line-height: 2em;
     padding: 1em;
     border: 1px solid;
     border-radius: 0.5em;

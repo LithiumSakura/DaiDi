@@ -142,6 +142,8 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     border: 1px solid;
     border-radius: 0.5em;
     margin: 1em;
+    padding: 1em;
+    text-align: right;
 }
 
 /* For join.html */

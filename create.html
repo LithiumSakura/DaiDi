@@ -5,6 +5,7 @@
         <title>Create Game</title>
         <link rel="stylesheet" href="styles/styles.css">
         <link rel="icon" type="image/x-icon" href="static/Spade2.png">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
     <body>
         <header>
@@ -20,7 +21,35 @@
         </header>
         <h1>Create A Game</h1>
         <div class="create">
-            <p>Yap Yap</p>
+            <form action="/game.html">
+                <label for="rname">Room name:</label>
+                <input type="text" id="rname" name="rname"><br><br>
+
+                <label for="rpasswordyn">Make a password?</label>
+                <input type="checkbox" id="rpasswordyn" name="rpasswordyn"><br><br>
+
+                <div class="password-container">
+                    <label for="rpassword">Password:</label>
+                    <input type="text" id="rpassword" name="rpassword"><br><br>
+                </div>
+
+                <label for="rname">Room name:</label>
+                <input type="text" id="rname" name="rname"><br><br>
+
+                <label for="playercount">Player count:</label>
+                <input type="range" id="playercount" name="playercount" min="1" max="4"><br><br>
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Create Game">
+            </form>
+
+            <script>
+            $(document).ready(function() {
+                $('input[name="rpasswordyn"]').change(function() {
+                    $('.password-container').toggle(this.checked);
+                });
+            });
+            </script>
         </div>
     </body>
 </html>

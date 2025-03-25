@@ -146,6 +146,10 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     text-align: right;
 }
 
+.password-container {
+    display:none;
+}
+
 /* For join.html */
 .games {
     display: flex;

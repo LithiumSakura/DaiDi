@@ -150,20 +150,6 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     align-items: top;
 }
 
-/* For create.html */
-.create {
-    display: block;
-    border: 1px solid;
-    border-radius: 0.5em;
-    margin: 1em;
-    padding: 1em;
-    text-align: right;
-}
-
-.password-container {
-    display:none;
-}
-
 /* For join.html */
 .games {
     display: flex;
@@ -206,6 +192,30 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     text-align: right;
     white-space: nowrap;
     margin-left: auto;
+}
+
+/* For create.html */
+.create {
+    display: block;
+    border: 1px solid;
+    border-radius: 0.5em;
+    margin: 1em;
+    padding: 1em;
+    text-align: right;
+}
+
+.password-container {
+    display:none;
+}
+
+/* For lobby.html */
+.lobby {
+    display: block;
+    border: 1px solid;
+    border-radius: 0.5em;
+    margin: 1em;
+    padding: 1em;
+    text-align: right;
 }
 
 /* For game.html */

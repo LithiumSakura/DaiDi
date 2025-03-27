@@ -108,9 +108,6 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
 
 /* For index.html */
 .buttons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
     gap: 1rem;

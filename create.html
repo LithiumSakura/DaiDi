@@ -20,25 +20,37 @@
             </nav>
         </header>
         <h1>Create A Game</h1>
-        <div class="create">
-            <form action="/lobby.html">
-                <label for="rname">Room name:</label>
-                <input type="text" id="rname" name="rname"><br><br>
+        <div class="page">
+            <div class="left">
+                <img src="static/Diamond2.png" alt="Two of Diamonds">
+                <img src="static/Club2.png" alt="Two of Clubs">
+            </div>
+            <div class="middle">
+                <div class="create">
+                    <form action="/lobby.html">
+                        <label for="rname">Room name:</label>
+                        <input type="text" id="rname" name="rname"><br><br>
 
-                <label for="rpasswordyn">Make a password?</label>
-                <input type="checkbox" id="rpasswordyn" name="rpasswordyn"><br><br>
+                        <label for="rpasswordyn">Make a password?</label>
+                        <input type="checkbox" id="rpasswordyn" name="rpasswordyn"><br><br>
 
-                <div class="password-container">
-                    <label for="rpassword">Password:</label>
-                    <input type="text" id="rpassword" name="rpassword"><br><br>
+                        <div class="password-container">
+                            <label for="rpassword">Password:</label>
+                            <input type="text" id="rpassword" name="rpassword"><br><br>
+                        </div>
+
+                        <label for="playercount">Player count (1-4):</label>
+                        <input type="range" id="playercount" name="playercount" min="1" max="4"><br><br>
+        
+                        <input type="reset" value="Reset">
+                        <input type="submit" value="Create Game">
+                    </form>
                 </div>
-
-                <label for="playercount">Player count (1-4):</label>
-                <input type="range" id="playercount" name="playercount" min="1" max="4"><br><br>
-
-                <input type="reset" value="Reset">
-                <input type="submit" value="Create Game">
-            </form>
+            </div>
+            <div class="right">
+                <img src="static/Heart2.png" alt="Two of Hearts">
+                <img src="static/Spade2.png" alt="Two of Spades">
+            </div>
 
             <script>
             $(document).ready(function() {

@@ -97,6 +97,7 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     width: 40%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .right {

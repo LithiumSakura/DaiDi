@@ -1,6 +1,7 @@
-/* Default AESTHETIC appearence. Applies to ALL pages. DO NOT CHANGE 
-THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
+/* DEFAULT SETTINGS (mostly for desktop appearance) */
 
+/* Default AESTHETIC appearence. Applies to ALL pages.
+DO NOT CHANGE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
 body {
     color: black;
     font-family: 'Monaco', monospace;
@@ -10,7 +11,6 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
     background: radial-gradient(
         circle,
         #CC5500 0%,
@@ -22,7 +22,6 @@ body {
     background-repeat: no-repeat;
     min-height: 100vh;
 }
-
 header {
     display: flex;
     padding: 1em 1em;
@@ -32,12 +31,10 @@ header {
     width: 100%;
     max-width: 1200px;
 }
-
 .header-left {
     font-size: 1em;
     font-weight: bold;
 }
-
 header ul {
     list-style: none;
     padding: 0;
@@ -45,36 +42,29 @@ header ul {
     display: flex;
     align-items: center;
 }
-
 header ul li {
     margin: 0 1em;
     vertical-align: middle;
     align-items: center;
 }
-
 header ul li a {
     color: black;
     text-decoration: none;
 }
-
 header ul li a:hover {
     text-decoration: underline;
 }
-
 img {
     width: 25%;
 }
-
 h1 {
     align-items: center;
     text-align: center;
     margin-bottom: 2rem;
 }
 
-
-/* Default CONTENT appearence. Applies to ALL pages. DO NOT CHANGE 
-THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
-
+/* Default CONTENT appearence. Applies to ALL pages.
+DO NOT CHANGE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
 .page {
     display: flex;
     flex-direction: row;
@@ -84,7 +74,6 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     width: 100%;
     max-width: 1200px;
 }
-
 .left {
     width: 30%;
     display: flex;
@@ -92,14 +81,12 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     align-items: center;
     transform: rotate(315deg);
 }
-
 .middle {
     width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .right {
     width: 30%;
     display: flex;
@@ -114,11 +101,9 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     width: 100%;
     gap: 1rem;
 }
-
 .button {
     width: 100%;
 }
-
 .buttons p a {
     display: inline-block;
     width: 90%;
@@ -130,7 +115,6 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     text-align: center;
     text-decoration: none;
 }
-
 .buttons p a:hover {
     color: red;
     background-color: #182E6F;
@@ -161,7 +145,6 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     max-width: 1000px;
     margin: 0 auto;
 }
-
 .game {
     padding: 1em;
     border: 1px solid;
@@ -169,7 +152,6 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     background-color: #7a1212;
     width: 100%;
 }
-
 .game a {
     display: flex;
     justify-content: space-between;
@@ -179,13 +161,11 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     text-decoration: none;
     min-width: 0;
 }
-
 .room-id {
     text-align: left;
     white-space: nowrap;
     margin-right: 1em;
 }
-
 .player-count {
     text-align: right;
     white-space: nowrap;
@@ -201,7 +181,6 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     padding: 1em;
     text-align: right;
 }
-
 .password-container {
     display:none;
 }
@@ -226,3 +205,7 @@ THESE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     );
     min-height: 100vh;
 }
+
+
+/* STYLE SETTINGS FOR MOBILE VIEW */
+

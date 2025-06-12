@@ -270,24 +270,22 @@ DO NOT CHANGE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
         max-width: 768px;
     }
     .left {
-        width: 30%;
+        width: 20%;
         display: flex;
         justify-content: center;
         align-items: center;
-        transform: rotate(315deg);
     }
     .middle {
-        width: 40%;
+        width: 60%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     .right {
-        width: 30%;
+        width: 20%;
         display: flex;
         justify-content: center;
         align-items: center;
-        transform: rotate(45deg);
     }
 
     /* For index.html */
@@ -384,7 +382,7 @@ DO NOT CHANGE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
 
     /* For game.html */
     .game-page {
-        
+
     }
 }
 

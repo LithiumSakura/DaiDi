@@ -258,7 +258,7 @@ DO NOT CHANGE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
         margin-bottom: 2rem;
     }
 
-    /* Default CONTENT appearence. Applies to ALL pages.
+     /* Default CONTENT appearence. Applies to ALL pages.
     DO NOT CHANGE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     .page {
         display: flex;
@@ -271,9 +271,10 @@ DO NOT CHANGE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     }
     .left {
         width: 20%;
-        display: flex;
+        display: inline;
         justify-content: center;
         align-items: center;
+        transform: rotate(0deg);
     }
     .middle {
         width: 60%;
@@ -283,9 +284,10 @@ DO NOT CHANGE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     }
     .right {
         width: 20%;
-        display: flex;
+        display: inline;
         justify-content: center;
         align-items: center;
+        transform: rotate(0deg);
     }
 
     /* For index.html */
@@ -385,4 +387,3 @@ DO NOT CHANGE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
 
     }
 }
-

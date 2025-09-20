@@ -122,7 +122,6 @@ DO NOT CHANGE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
 
 /* For rules.html */
 .rules-middle {
-    width: 30%;
     display: inline-block;
     border: 1px solid;
     border-radius: 0.5em;
@@ -384,6 +383,6 @@ DO NOT CHANGE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
 
     /* For game.html */
     .game-page {
-        
+
     }
 }

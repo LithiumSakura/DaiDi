@@ -1,8 +1,4 @@
 # DaiDi
-Just three software engineering students that like dai di but online versions suck sooo >:)
+When two softwar engineering students want to play daidi but forgot to bring a deck of cards and there isn't a version with good UI.
 
-Message from Boogie: I am so bored i need Dai Di
-
-Message from Sakura: I miss my boyfriendd
-
-Message from Boogie on behalf of Eadus: My crunchie 😭
+Deck of cards (including the backs) are from Hanhaechi, available on: https://github.com/hanhaechi/playing-cards/tree/master

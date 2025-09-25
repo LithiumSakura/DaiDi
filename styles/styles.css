@@ -73,6 +73,7 @@ DO NOT CHANGE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
     flex-grow: 1;
     width: 100%;
     max-width: 1200px;
+    border-image: 5em;
 }
 .left {
     width: 30%;

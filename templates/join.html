@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Join Game</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+        <link rel="icon" type="image/x-icon" href="static/imgs/Spades2.png">
+    </head>
+    <body>
+        <header>
+            <div class="header-left">Dai Di Join Game</div>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('main_menu') }}">Home</a></li>
+                    <li><a href="{{ url_for('join_game') }}">Join</a></li>
+                    <li><a href="{{ url_for('create_games') }}">Create</a></li>
+                    <li><a href="{{ url_for('game_rules') }}">Rulez</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>Join A Game</h1>
+        <div class="page">
+            <div class="left">
+                <img src="static/imgs/Diamonds2.png" alt="Two of Diamonds">
+                <img src="static/imgs/Clubs2.png" alt="Two of Clubs">
+            </div>
+            <div class="middle">
+                <div class="games">
+                    <div class="game">
+                        <a href="game.html">
+                            <span class="room-id">Room #00000</span>
+                            <span class="player-count">1/4 Players</span>
+                        </a>
+                    </div>
+                    <div class="game">
+                        <a href="game.html">
+                            <span class="room-id">Room #12345</span>
+                            <span class="player-count">2/4 Players</span>
+                        </a>
+                    </div>
+                    <div class="game">
+                        <a href="game.html">
+                            <span class="room-id">Room #88999</span>
+                            <span class="player-count">3/4 Players</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <img src="static/imgs/Hearts2.png" alt="Two of Hearts">
+                <img src="static/imgs/Spades2.png" alt="Two of Spades">
+            </div>
+        </div>
+    </body>
+</html>

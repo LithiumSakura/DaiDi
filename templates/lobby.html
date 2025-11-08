@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Lobby</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+        <link rel="icon" type="image/x-icon" href="static/imgs/Spades2.png">
+    </head>
+    <body>
+        <header>
+            <div class="header-left">Dai Di Lobby</div>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('main_menu') }}">Home</a></li>
+                    <li><a href="{{ url_for('join_game') }}">Join</a></li>
+                    <li><a href="{{ url_for('create_games') }}">Create</a></li>
+                    <li><a href="{{ url_for('game_rules') }}">Rulez</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>Lobby</h1>
+        <div class="page">
+            <div class="left">
+                <img src="static/imgs/Diamonds2.png" alt="Two of Diamonds">
+                <img src="static/imgs/Clubs2.png" alt="Two of Clubs">
+            </div>
+            <div class="middle">
+                <div class="lobby">
+                    
+                </div>
+            </div>
+            <div class="right">
+                <img src="static/imgs/Hearts2.png" alt="Two of Hearts">
+                <img src="static/imgs/Spades2.png" alt="Two of Spades">
+            </div>
+        </div>
+    </body>
+</html>

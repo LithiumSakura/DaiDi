@@ -1,0 +1,389 @@
+/* DEFAULT SETTINGS (mostly for desktop appearance) */
+
+/* Default AESTHETIC appearence. Applies to ALL pages.
+DO NOT CHANGE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
+body {
+    color: black;
+    font-family: 'Monaco', monospace;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(
+        circle,
+        #CC5500 0%,
+        #CC5500 30%,
+        #801818 100%
+    );
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+header {
+    display: flex;
+    padding: 1em 1em;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+}
+.header-left {
+    font-size: 1em;
+    font-weight: bold;
+}
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+header ul li {
+    margin: 0 1em;
+    vertical-align: middle;
+    align-items: center;
+}
+header ul li a {
+    color: black;
+    text-decoration: none;
+}
+header ul li a:hover {
+    text-decoration: underline;
+}
+img {
+    width: 25%;
+    padding: 5em;
+}
+h1 {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Default CONTENT appearence. Applies to ALL pages.
+DO NOT CHANGE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    max-width: 1200px;
+}
+.left {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(315deg);
+}
+.middle {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+}
+
+/* For index.html */
+.buttons {
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+.button {
+    width: 100%;
+}
+.buttons p a {
+    display: inline-block;
+    width: 90%;
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 0.5em;
+    background-color: #DE8C09;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.buttons p a:hover {
+    color: red;
+    background-color: #182E6F;
+}
+
+/* For rules.html */
+.rules-middle {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin: 0.5em;
+    text-align: left;
+    align-items: top;
+}
+
+/* For join.html */
+.games {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    padding: 2em;
+    width: 75%;
+    min-width: 200px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.game {
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 0.5em;
+    background-color: #7a1212;
+    width: 100%;
+}
+.game a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    min-width: 0;
+}
+.room-id {
+    text-align: left;
+    white-space: nowrap;
+    margin-right: 1em;
+}
+.player-count {
+    text-align: right;
+    white-space: nowrap;
+    margin-left: auto;
+}
+
+/* For create.html */
+.create {
+    display: block;
+    border: 1px solid;
+    border-radius: 0.5em;
+    margin: 1em;
+    padding: 1em;
+    text-align: right;
+}
+.password-container {
+    display:none;
+}
+
+/* For lobby.html */
+.lobby {
+    display: block;
+    border: 1px solid;
+    border-radius: 0.5em;
+    margin: 1em;
+    padding: 1em;
+    text-align: right;
+}
+
+/* For game.html */
+.game-page {
+    background: radial-gradient(
+        circle,
+        #35A542 0%,
+        #35A542 30%,
+        #244929 100%
+    );
+    min-height: 100vh;
+}
+
+
+/* MOBILE SETTINGS */
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    header {
+        display: flex;
+        padding: 1em 1em;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        max-width: 768x;
+    }
+    .header-left {
+        font-size: 1em;
+        font-weight: bold;
+    }
+    header ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    header ul li {
+        margin: 0 1em;
+        vertical-align: middle;
+        align-items: center;
+    }
+    header ul li a {
+        color: black;
+        text-decoration: none;
+    }
+    img {
+        width: 25%;
+    }
+    h1 {
+        align-items: center;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+     /* Default CONTENT appearence. Applies to ALL pages.
+    DO NOT CHANGE UNLESS YOU WANT TO CHANGE THE APPEARANCE OF ALL PAGES */
+    .page {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        width: 100%;
+        max-width: 768px;
+    }
+    .left {
+        width: 20%;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        transform: rotate(0deg);
+    }
+    .middle {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right {
+        width: 20%;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        transform: rotate(0deg);
+    }
+
+    /* For index.html */
+    .buttons {
+        align-items: center;
+        width: 100%;
+        gap: 1rem;
+    }
+    .button {
+        width: 100%;
+    }
+    .buttons p a {
+        display: inline-block;
+        width: 90%;
+        padding: 1em;
+        border: 1px solid;
+        border-radius: 0.5em;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    /* For rules.html */
+    .rules-middle {
+        width: 30%;
+        display: inline-block;
+        border: 1px solid;
+        border-radius: 0.5em;
+        padding: 0.5em;
+        margin: 0.5em;
+        text-align: left;
+        align-items: top;
+    }
+
+    /* For join.html */
+    .games {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+        padding: 2em;
+        width: 75%;
+        min-width: 200px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .game {
+        padding: 1em;
+        border: 1px solid;
+        border-radius: 0.5em;
+        width: 100%;
+    }
+    .game a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        text-decoration: none;
+        min-width: 0;
+    }
+    .room-id {
+        text-align: left;
+        white-space: nowrap;
+        margin-right: 1em;
+    }
+    .player-count {
+        text-align: right;
+        white-space: nowrap;
+        margin-left: auto;
+    }
+
+    /* For create.html */
+    .create {
+        display: block;
+        border: 1px solid;
+        border-radius: 0.5em;
+        margin: 1em;
+        padding: 1em;
+        text-align: right;
+    }
+    .password-container {
+        display: none;
+    }
+
+    /* For lobby.html */
+    .lobby {
+        display: block;
+        border: 1px solid;
+        border-radius: 0.5em;
+        margin: 1em;
+        padding: 1em;
+        text-align: right;
+    }
+
+    /* For game.html 
+    .game-page {
+
+    }*/
+}
